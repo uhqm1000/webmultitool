@@ -552,7 +552,7 @@ def main_menu():
     print(f"{RED}4. Website Social Finder{WHITE}")
     print(f"{RED}5. Website Protection Scanner{WHITE}")
     print(f"{RED}6. Website Info Scanner{WHITE}")
-    print(f"{RED}7. Website DoS Attack{WHITE}")
+    print(f"{RED}7. DoS Attack{WHITE}")
     print(f"{RED}8. IP Geolocalisator{WHITE}")
     print(f"{RED}9. Credits{WHITE}")
     print(f"{RED}10. Leave{WHITE}")
