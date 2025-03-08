@@ -3,7 +3,9 @@
 # How to download
 `git clone https://github.com/uhqm1000/webmultitool.git`
 
-`git clone https://github.com/uhqm1000/webmultitool.git`
+'cd webmultitool`
+
+'pip install -r requirements.txt'
 
 
 
