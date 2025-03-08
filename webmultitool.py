@@ -226,16 +226,16 @@ def ddos_scan(url):
             with lock:
                 request_count += 1
                 fail_count += 1
-            print(f"{RED}[{current_time()}] Failed request{WHITE}")
+            print(f"{RED}[{current_time()}] Failed request,do not close the tool{WHITE}")
 
     threads = []
     start_time = time.time()
-    while time.time() - start_time < 10:
+    while time.time() - start_time < 6:
         t = threading.Thread(target=send_request)
         threads.append(t)
         t.start()
 
-    time.sleep(10)
+    time.sleep(6)
     for t in threads:
         t.join(timeout=0)
 
