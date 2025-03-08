@@ -9,7 +9,7 @@
 `pip install -r requirements.txt`
 
 `python3 webmultitool.py`
-# OR
+# OR if python 3 doesnt work
 `python webmultitool.py`
 
 
